@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:padding="20dp" />
 
 <!-- Bottom Right "From, Charlie !" -->
     <TextView
@@ -36,6 +37,7 @@
         android:layout_alignParentRight="true"
         android:textSize="36sp"
         android:fontFamily="sans-serif-light"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:padding="20dp" />
 
 </RelativeLayout>
