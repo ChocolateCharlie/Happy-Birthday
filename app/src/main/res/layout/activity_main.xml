@@ -16,7 +16,9 @@
         android:text="Happy Birthday Willy !"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="36sp"/>
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white" />
 
 <!-- Bottom Right "From, Charlie !" -->
     <TextView
@@ -26,13 +28,13 @@
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:textSize="36sp"
-        android:fontFamily="sans-serif-light" />
+        android:fontFamily="sans-serif-light"
+        android:textColor="@android:color/white" />
 
 <!-- Background image -->
     <ImageView
         android:src="@drawable/androidparty"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-light" />
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>
