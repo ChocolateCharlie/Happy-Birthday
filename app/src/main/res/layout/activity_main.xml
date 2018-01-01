@@ -25,12 +25,14 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="36sp" />
+        android:textSize="36sp"
+        android:fontFamily="sans-serif-light" />
 
 <!-- Background image -->
     <ImageView
         android:src="@drawable/androidparty"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-light" />
 
 </RelativeLayout>
